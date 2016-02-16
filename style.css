@@ -1,0 +1,197 @@
+html{
+}
+
+body{
+ margin:0;
+ padding:0;
+ text-align: center;
+ background-color:#FFFFFF;
+ color:#000000;
+ font-family: helvetica, arial, sans-serif, geneva, verdana;
+ font-size: 11px;
+ line-height:14px;
+}
+
+
+
+div{
+    border:0px solid #FF0000;
+}
+
+
+
+#container{
+  	text-align: left;
+    margin: 0 auto;
+  	width: 730px;
+}
+
+
+#pageHeader{
+    text-indent: -9999px; 
+	background:#FFFFFF url(img/pageHeader_200x268.png) no-repeat;
+	height:268px;
+	width:200px;
+	position:relative;
+	left:40%;
+	margin-top:15px;
+}
+
+
+#summary{
+    text-indent: -9999px; 
+	background:#FFFFFF url(img/quickSummary_50x200.png) no-repeat;
+	height:50px;
+	width:200px;
+	position:relative;
+	left:40%;
+	margin-bottom:10px;
+}
+
+
+.columnItem{
+    display:inline;
+    float:left;
+    margin-top:30px;
+    margin-left:10px;
+    margin-right:30px;
+	width:230px;
+	height:360px; 
+}
+
+.columnItemSml{
+    display:inline;
+    float:left;
+    margin-top:30px;
+    margin-right:20px;
+	width:150px;
+	height:360px; 
+}
+
+
+.columnItem .experienceHeader {
+   text-indent: -9999px;
+   background:#FFFFFF url(img/col_01.png) no-repeat;
+   height:24px;
+}
+
+
+.columnItemSml .skillsHeader{
+    text-indent: -9999px; 
+    background:#FFFFFF url(img/col_02.png) no-repeat;
+    margin-left:20px;
+    height:23px;
+}
+
+
+.columnItem .contactHeader{
+    text-indent: -9999px; 
+    background:#FFFFFF url(img/col_03.png) no-repeat;
+    height:24px;
+}
+
+
+.columnItem .skillsList{
+    margin:20px;
+}
+
+
+#portfolio{
+    clear:left;
+    margin:10px;
+}
+
+
+#portfolio .portfolioHeader{
+   /*
+    border-top:1px solid #696969;
+    border-bottom:1px solid #696969;
+    padding: 6px;
+    */
+    
+    font-size:12px;
+	color:#ffffff;
+    background-color:#444444;
+    padding:6px;
+}
+
+
+#portfolio .portfolioItem{
+    
+    clear:left;
+    height:175px;
+    border-bottom:1px solid #696969;
+    margin-top:10px;
+}
+
+
+#portfolio .portfolioItem .itemLeftCol{
+    float:left;
+    display:inline;
+    margin:6px 6px 10px 0px;
+    width:200px;
+    height:160px;    
+}
+
+#portfolio .portfolioItem .itemRightCol{
+    float:left;
+    margin:10px;
+    width:400px;
+    height:160px; 
+}
+
+
+
+
+
+
+
+
+
+
+.numLink{
+     margin-right:8px;
+     float:left;
+     width:20px;
+     cursor:hand;
+    color:#331403;
+    text-decoration:underline;
+}
+
+
+
+#backToHome {
+   margin-top: 10px;
+   float: right;
+   color: #444444;
+   text-decoration: none;
+}
+
+
+#pquote {
+    clear:right;
+    margin-top:10px;
+    font-size:12px;
+	color:#ffffff;
+    background-color:#444444;
+    padding:6px;
+}
+
+#pleftcol{
+    float:left;
+    width:560px;
+    display:inline;
+}
+
+#prightcol{
+   margin-left:14px;
+   float:left;
+   width:150px;
+   margin:left;
+}
+
+#prightcol .item{
+    border-left:6px solid #444444;
+    padding-left:6px;
+    
+}
